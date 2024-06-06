@@ -33,6 +33,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.green,
       appBar: AppBar(
+        backgroundColor: Colors.green,
+        elevation: 5.0,
         leading: Icon(FontAwesomeIcons.dumbbell),
         title: const Text(
           'BMI CALCULATOR',

@@ -18,6 +18,8 @@ class ResultPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.green,
       appBar: AppBar(
+        backgroundColor: Colors.green,
+        elevation: 5.0,
         title: Text(
           'BMI CALCULATOR',
           style: TextStyle(
